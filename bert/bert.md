@@ -5,7 +5,7 @@ resize the image to 100x100
 
 A typical transformer model consists of two main components: an **encoder** and a **decoder**. The encoder encodes the input sequence and passes it to the decoder. The encoder typically consists of multiple stacked encoders, and in the original research paper, six encoders were used. The number of encoders is a hyperparameter and not a magical number. Each encoder is structurally identical but has different weights. 
 
-<div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+<div align="center">
   <img src="images\image.png" alt="Alt text" width="400" height="300" />
 </div>
 
@@ -15,13 +15,13 @@ Each encoder can be divided into two sub-layers:
 
 In the decoder, there are also self-attention and feedforward layers. Between them, there is an **encoder-decoder attention layer** that helps the decoder focus on relevant parts of the input sentence.
 
-<div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+<div align="center">
   <img src="images\encoding.png" alt="Alt text" width="400" height="300" />
 </div>
 
 The self-attention layer breaks the input embedding into query, key, and value vectors. These vectors are computed using weights learned during training. Matrix computations are used to perform these operations in parallel. Once we have the query, key, and value vectors, the next step is to multiply each value vector by the softmax score in preparation to sum them up to calculate attention scores, allowing the model to focus on relevant words while suppressing irrelevant ones.
 
-<div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+<div align="center">
   <img src="images\attention.png" alt="Alt text" width="400" height="300" />
 </div>
 
@@ -42,11 +42,11 @@ In summary, the process of obtaining the final embeddings in a transformer invol
   </div>
 </div>
 5. Calculating attention using the resulting QKV (Query, Key, Value) matrices.These scores represent how much each word should attend to every other word in the input sequence. The scores are then scaled and passed through a softmax function to normalize them, ensuring that they sum up to 1 and can be interpreted as probabilities.
-<div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+<div align="center">
   <img src="images\qkv3.png" alt="Alt text" width="300" height="200" />
 </div>
 6. Concatenating the matrices to produce the output matrix with the same dimension as the initial input.
-<div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+<div align="center">
   <img src="images\concat.png" alt="Alt text" width="300" height="200" />
 </div>
 
