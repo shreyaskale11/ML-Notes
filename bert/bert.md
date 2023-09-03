@@ -32,13 +32,9 @@ In summary, the process of obtaining the final embeddings in a transformer invol
 4. Multiplying the embedded words with weighted matrices.These matrices are unique for each attention head and capture how much attention should be given to each word with respect to the others. This step allows the model to weigh the importance of each word for the current context and the specific attention head.From the multiplication step, we obtain Query (Q), Key (K), and Value (V) matrices. These matrices are derived from the weighted embeddings and serve as the foundation for calculating attention scores.
 
 <div style="display: flex;">
-  <div style="flex: 1; padding-right: 10px;">
-    <img src="images/qkv1.png" width="350" height="200" />
-  </div>
-  <div style="flex: 1; padding-left: 10px;">
-    <img src="images/qkv2.png" width="350" height="200" />
-  </div>
-  <div style="flex: 1; padding-left: 10px;">
+  <div style="flex: 1; padding-right: 5px;">
+    <img src="images/qkv1.png" width="330" height="200" />
+    <img src="images/qkv2.png" width="330" height="200" />
     <img src="images/qkv4.png" width="150" height="200" />
   </div>
 </div>
