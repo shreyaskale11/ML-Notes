@@ -30,17 +30,19 @@ In summary, the process of obtaining the final embeddings in a transformer invol
 2. Embedding each word in the sentence.
 3. Performing multi-headed attention multiple times,typically with eight heads, but this number can vary. Each attention head is like a different perspective through which the model can focus on different parts of the input sequence.
 4. Multiplying the embedded words with weighted matrices.These matrices are unique for each attention head and capture how much attention should be given to each word with respect to the others. This step allows the model to weigh the importance of each word for the current context and the specific attention head.From the multiplication step, we obtain Query (Q), Key (K), and Value (V) matrices. These matrices are derived from the weighted embeddings and serve as the foundation for calculating attention scores.
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="margin-right: 10px;">
-    <img src="images\qkv1.png" alt="Alt text" width="350" height="200" />
+
+<div style="display: flex;">
+  <div style="flex: 1; padding-right: 10px;">
+    <img src="images/qkv1.png" width="350" height="200" />
   </div>
-  <div style="margin-right: 10px;">
-    <img src="images\qkv2.png" alt="Alt text" width="350" height="200" />
+  <div style="flex: 1; padding-left: 10px;">
+    <img src="images/qkv2.png" width="350" height="200" />
   </div>
-  <div>
-    <img src="images\qkv4.png" alt="Alt text" width="150" height="200" />
+  <div style="flex: 1; padding-left: 10px;">
+    <img src="images/qkv4.png" width="150" height="200" />
   </div>
 </div>
+
 5. Calculating attention using the resulting QKV (Query, Key, Value) matrices.These scores represent how much each word should attend to every other word in the input sequence. The scores are then scaled and passed through a softmax function to normalize them, ensuring that they sum up to 1 and can be interpreted as probabilities.
 <div align="center">
   <img src="images\qkv3.png" alt="Alt text" width="300" height="200" />
