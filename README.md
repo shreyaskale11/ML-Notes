@@ -31,11 +31,15 @@ Welcome to my machine learning notes! This collection of notes is designed to he
         - Decision_Trees.md
         - Support_Vector_Machines.md
     - Unsupervised_Learning
+        - Clustering
+        - Anomaly detection
         - K-Means_Clustering.md
         - Principal_Component_Analysis.md
         - Hierarchical_Clustering.md
-    - Deep_Learning
-        - Neural_Networks.md
+    - [Deep_Learning](/Deep_Learning/)
+        - [Neurons_and_Layers](Deep_Learning/neurons_and_layers.ipynb)
+        - [Activation_Functions](Deep_Learning/activation_functions.ipynb)
+        - [Multiclass_Classification](Deep_Learning/multiclass_classification.ipynb)
         - Convolutional_Neural_Networks.md
         - Recurrent_Neural_Networks.md
     - Natural_Language_Processing
@@ -43,6 +47,7 @@ Welcome to my machine learning notes! This collection of notes is designed to he
         - Word_Embeddings.md
         - Seq2Seq_Models.md
     - Reinforcement_Learning
+        - Recommender Systems
         - Q-Learning.md
         - Policy_Gradients.md
         - Deep_Q_Networks.md
