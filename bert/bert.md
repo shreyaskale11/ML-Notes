@@ -60,7 +60,7 @@ BERT can be applied to various downstream NLP tasks, including text classificati
 # References
 - [Transformer Models and BERT Model](https://www.coursera.org/learn/transformer-models-and-bert-model/home/info)
 
-
+https://arxiv.org/abs/1810.04805 - BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 
 
