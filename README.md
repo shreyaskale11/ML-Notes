@@ -27,8 +27,9 @@ Welcome to my machine learning notes! This collection of notes is designed to he
         - Types_of_ML_Algorithms.md
         - ML_Libraries.md
     - [Supervised_Learning](/Supervised_Learning/)
-        - Linear_Regression.md
-        - Decision_Trees.md
+        - [Linear_Regression_gradient_descent](Supervised_Learning/linear_regression_gradient_descent.ipynb)
+        - [Decision_Trees.md](Supervised_Learning/decision_tree.ipynb)
+        - [Polynomial_Regression.md](Supervised_Learning/polynomial_regression.ipynb)
         - Support_Vector_Machines.md
     - Unsupervised_Learning
         - Clustering
