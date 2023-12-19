@@ -10,7 +10,8 @@ A typical transformer model consists of two main components: an **encoder** and 
 </div>
 
 Each encoder can be divided into two sub-layers:
-1. **Self-attention layer**: The input sequence flows through a self-attention layer, allowing the encoder to focus on relevant parts of the words as it encodes a central word in the input sentence.
+1. **Self-attention layer**: The input sequence flows thr
+ough a self-attention layer, allowing the encoder to focus on relevant parts of the words as it encodes a central word in the input sentence.
 2. **Feedforward layer**: The output of the self-attention layer is fed into a feedforward neural network. This network is applied independently to each position, making it suitable for parallel processing.
 
 In the decoder, there are also self-attention and feedforward layers. Between them, there is an **encoder-decoder attention layer** that helps the decoder focus on relevant parts of the input sentence.

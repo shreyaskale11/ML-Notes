@@ -43,10 +43,11 @@ Welcome to my machine learning notes! This collection of notes is designed to he
         - [Multiclass_Classification](Deep_Learning/multiclass_classification.ipynb)
         - Convolutional_Neural_Networks.md
         - Recurrent_Neural_Networks.md
-    - Natural_Language_Processing
+    - [Natural_Language_Processing](/Natural_Language_Processing/)
         - Text_Preprocessing.md
-        - Word_Embeddings.md
-        - Seq2Seq_Models.md
+        - [sentiment_analysis.md](/Natural_Language_Processing/sentiment_analysis.ipynb)
+        - Navie_Bayes.md
+        - [Neural_Machine_Translation.md](/Natural_Language_Processing/neural_machine_translation.ipynb)
     - Reinforcement_Learning
         - Recommender Systems
         - Q-Learning.md
@@ -71,6 +72,7 @@ Welcome to my machine learning notes! This collection of notes is designed to he
         - Transformer_Architecture.md
         - [BERT.md](/Transformer/bert/bert.md)
         - GPT-3.md
+
 
 ---
 
